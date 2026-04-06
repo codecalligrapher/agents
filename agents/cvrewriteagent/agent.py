@@ -15,6 +15,8 @@ from typing import Any, Dict, Tuple
 import requests
 import gradio as gr
 
+from pathlib import Path
+
 # ── Ollama config ───────────────────────────────────────────────────────────
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
